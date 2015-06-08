@@ -1,0 +1,16 @@
+{
+    "name": "kingjerod/silex-oauth-example",
+    "authors": [
+        {
+            "name": "Jerod King",
+            "email": "jerodking@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {"kingjerod\\Example\\": "src"}
+    },
+    "require": {
+      "silex/silex": "~1.2",
+      "league/oauth2-client": "^0.11.0"
+    }
+}
